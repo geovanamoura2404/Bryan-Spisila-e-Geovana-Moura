@@ -1,7 +1,9 @@
  .identificação{
     color: blue;
  }
-
+.galeria{
+   width: 50%;
+}
  body{
    background-color: black;
  }
