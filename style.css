@@ -1,24 +1,28 @@
- .identificação{
+ .identificação {
     color: rgb(0, 0, 0);
  }
-.galeria{
-   width: 50%;
-}
- body{
-   background-color: rgb(55 52 86);
+
+ .galeria {
+    width: 50%;
+ }
+
+ body {
+    background-color: rgb(55 52 86);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: flex-start;
  }
 
- .links{
-   display: flex;
-   flex-direction: column;}
-   a{
-margin: 20px;
-padding: 20px;
-background-color: azure;
-color: #000;
+ .links {
+    display: flex;
+    flex-direction: column;
+ }
 
-   }
+ a {
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+    color: #000;
+
+ }
