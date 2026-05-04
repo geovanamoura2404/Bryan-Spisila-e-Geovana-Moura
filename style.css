@@ -14,5 +14,11 @@
 
  .links{
    display: flex;
-   flex-direction: column;
- }
+   flex-direction: column;}
+   a{
+margin: 20px;
+padding: 20px;
+background-color: azure;
+color: #000;
+
+   }
