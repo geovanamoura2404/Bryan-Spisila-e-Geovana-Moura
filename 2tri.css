@@ -1,24 +1,156 @@
-.titulo-verde{
-    color: #457a00;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
-.titulo-verde-claro{
-    color: chartreuse;
+
+body{
+    background:#f5f5f5;
 }
-.titulo-verdinho{
-    color: #457a00;
+
+header{
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 2px 5px rgba(0,0,0,.2);
 }
-.titulo-verdao{
-    color: darkgreen;
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
-.titulo-branco{
-    color: white;
+
+.logo img{
+    width:60px;
 }
-.titulo-branquinho{
-    color: white;
+
+.logo h2{
+    color:#2d6b28;
 }
-.titulo-brancao{
-    color: white;
+
+.logo p{
+    color:#666;
+    font-size:14px;
 }
-.branko{
-    color: white;
+
+nav a{
+    text-decoration:none;
+    color:#222;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#2d8d37;
+}
+
+.banner{
+    position:relative;
+}
+
+.banner img{
+    width:100%;
+    display:block;
+}
+
+.texto{
+    position:absolute;
+    top:15%;
+    left:8%;
+}
+
+.texto h1{
+    color:#2d5d27;
+    font-size:48px;
+    line-height:60px;
+}
+
+.botao{
+    display:inline-block;
+    margin-top:20px;
+    background:#4CAF50;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.botao:hover{
+    background:#2d7d32;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:50px;
+    background:#fff;
+}
+
+.card{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    text-align:center;
+    padding:20px;
+}
+
+.card img{
+    width:90px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:#2d7d32;
+    margin-bottom:10px;
+}
+
+.sobre{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    padding:50px;
+}
+
+.sobre img{
+    width:140px;
+}
+
+.sobre h2{
+    color:#2d7d32;
+    margin-bottom:15px;
+}
+
+.sobre p{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1d8a38;
+    color:#fff;
+    text-align:center;
+    padding:25px;
+}
+
+footer h3{
+    margin-bottom:25px;
+}
+
+.rodape{
+    display:flex;
+    justify-content:space-around;
+}
+
+.rodape img{
+    width:45px;
+    margin-bottom:10px;
+}
+
+.rodape h4{
+    margin-bottom:5px;
 }
